@@ -1,0 +1,231 @@
+*{
+    padding: 0px ;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: 17px ;
+}
+
+.nav{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.nav1{
+    width: 10%;
+}
+
+.nav1 img{
+    width: 40px;
+}
+
+.nav2{
+    width: 80%;
+    margin-right: 5vw;
+}
+
+.nav3{
+    width: 10%;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+.navsearch{
+    width: 100%;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: end !important;
+    align-items: center !important;
+
+}
+.navse2{
+    width: 50%;   
+}
+
+
+.searchmain{
+    width: 100%;
+    position: relative;
+}
+
+.search {   
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+ 
+  .navsearchlist {
+    width: 400px;
+    height: auto;
+    max-height: 400px;
+    flex-direction: row !;
+    justify-content: center;
+    align-items: start;
+
+    position: absolute;
+    left: 3%;
+    top: 101%;
+    display: none;
+    overflow-y: scroll;
+    z-index: 2;
+
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-color: aquamarine;
+    
+  }
+
+  
+  .search:focus + .navsearchlist {
+    display: block;
+    background-color: white;
+  }
+
+
+
+
+.navsearchlist li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+}
+
+.carticon{
+    padding-left: 7vh;
+}
+
+
+/* card rating*/
+.card{
+    height: 100%;
+    margin-bottom: 20px;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cardimage{
+    height: 200px;
+    width: 180px;
+    padding: 15px;
+}
+
+.cardrate{
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+}
+
+.cardrate img {
+    height: 14px;
+}
+
+.cardtitle{
+    font-size: 18px;
+    height: 47px;
+    overflow: hidden;
+}
+
+.cardDescription{
+    width: auto;
+    height: 100px;
+    overflow-x:hidden;
+    overflow-y: visible;
+
+}
+
+.cardDescription::-webkit-scrollbar{
+    display: none;
+}
+
+.cardbutton{
+    width: 100%;
+    height: 11%;
+    background-color: whitesmoke;
+    color: black;
+    padding: 0px; 
+
+}
+
+
+/*cart designing*/
+
+.cart{
+    width: 100%;
+}
+.cartheading{
+    padding: 20px;
+}
+.cartheading h2{
+    font-size: 50px;
+}
+
+.cartcard{
+    width: 90% !important;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin: 1% 5%;
+}
+
+.cartcardimg{
+    width: 50px;
+    padding: 10px;
+}
+
+.cardbody{
+    width: 80%;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.carttitle{
+    padding-top: 10px;
+}
+.cartdescription{
+    height: 80px;
+    width: 400px;
+    overflow-y: scroll;
+    font-size: 15px;
+    font-variant: initial;
+}
+
+.cartdescription::-webkit-scrollbar{
+    display:none;
+}
+
+.cartbutton{
+    width: 13%;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addremove{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items:center;
+}
+
+.addremove input{
+    width: 40px;
+    height: 25px;
+}
+
+.cartdelete {
+    border: solid black 1px;
+    border-radius: 4px;
+    padding: 0 5px 0 5px;
+}
+
+
+
